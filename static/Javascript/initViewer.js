@@ -4,7 +4,7 @@ function initViewer(){
     Cesium.Camera.DEFAULT_VIEW_FACTOR = 0;
     var viewer = new Cesium.Viewer('cesiumContainer', {
     animation : false,
-    timeline : false,
+    timeline : false
     });
 
     return viewer;
